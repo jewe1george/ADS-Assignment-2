@@ -200,7 +200,7 @@ indicators = [
 ]
 
 # creating some heatmaps to compare indicators of
-# countries, explore its correlations (or lack of)
+# countries, explore its correlations
 makeheatmap("API_19_DS2_en_csv_v2_6183479.csv", "India", indicators, cm.winter)
 makeheatmap("API_19_DS2_en_csv_v2_6183479.csv", "China", indicators, cm.cool)
 makeheatmap("API_19_DS2_en_csv_v2_6183479.csv", "Brazil", indicators, cm.bone)
